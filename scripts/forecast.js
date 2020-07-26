@@ -2,7 +2,7 @@ const key = 'y2f5P8ufeACjQNvg0YnQdXApVZDQaQkk';
 
 const getCity = async (city) => {
 
-    const base = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+    const base = 'https://dataservice.accuweather.com/locations/v1/cities/search';
     
     const query =`?apikey=${key}&q=${city}`;
 
